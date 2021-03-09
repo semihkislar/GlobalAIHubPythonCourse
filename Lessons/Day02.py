@@ -51,5 +51,21 @@
 
 # print(numbers * 5)
 
-list2 = [[1,2],3,5,6]
+# list2 = [[1,2],3,5,6]
 # print(list2[0][1])
+
+
+# if condition
+print('HOŞGELDİNİZZZZ!')
+userName = 'Semih'
+password = 'hello123'
+
+inputUserName = input('Kullanıcı Adınızı Giriniz: ')
+inputPassword = input('Şifrenizi Giriniz:')
+
+if userName != inputUserName and password == inputPassword:
+    print('Kullanıcı adınız hatali')
+elif userName == inputUserName and password != inputPassword:
+        print('Şifre Hatalı')
+elif userName == inputUserName and password == inputPassword:
+        print('Tebrikler Giriş Yaptınız')

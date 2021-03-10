@@ -78,3 +78,21 @@
 #     else:
 #         print('Tek Rakam {}'.format(num))
 #     num += 1
+
+randomList = ["1","2","3"]
+print(randomList[0]+randomList[1])
+
+
+customList = list(range(10,20,2))
+print(customList)
+
+nums = list(range(5))
+square = [i % 2 for i in nums]
+print(square)
+
+myList = [0,1,2,3,4,5]
+for x in range(1,5):
+    myList[x-1] = myList[x]
+
+for x in range(0,5):
+    print(myList[x],end=" ")
